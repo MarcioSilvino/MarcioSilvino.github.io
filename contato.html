@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        fieldset{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cafe<span class="branco">teria <span class="cinza">San</span>tos</span>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="contato.html">Contato</a>
+        </nav> 
+    </header>
+    
+   <main> 
+        <h2>Contato</h2>
+        <form method="get" id="formulario">
+            <fieldset>
+
+                <label for="nome">Nome:</label> <br>
+                <input type="text" name="nome" id="nome"><br><br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" name="email" id="email"> <br><br>
+                <label for="idade">Idade:</label> <br>
+                <input type="number" name="idade" id="idade"> <br><br>
+            
+                Sexo: <br> 
+                <input type="radio" name="sexo" value="M" id="masculino"><label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" value="F" id="feminino"><label for="feminino">Feminino</label>
+                <br><br>
+                Como você conheceu a cafeteria: <br> 
+                <input type="checkbox" name="conheceu" id="google" value="Google"><label for="google">Google</label> <br>
+                <input type="checkbox" name="conheceu" id="redes sociais" value="Redes sociais"><label for="redes sociais">Redes Sociais</label> <br>
+                <input type="checkbox" name="conheceu" id="tv" value="TV"><label for="tv">TV</label> <br>
+                <input type="checkbox" name="conheceu" id="outros" value="Outros"><label for="outros">Outros</label> <br><br>
+            
+                Deixe a sua dúvida  : <br> 
+                <textarea cols="50" rows="10"></textarea>
+                <br><br>
+                <input type="submit" value="Enviar os dados"> 
+            </fieldset>
+        </form>
+        </main>
+        <footer>
+            <div>
+                <p>Endereço</p>
+                <p>Rua Espirito Santo,66, Vila Ilze</p>
+                <p>Itapira - SP</p>
+                <br>
+                <p>Contato</p>
+                <p> <strong>(19)99652-2525</strong> </p>
+            </div>
+            <div>
+                <p>Horário de</p>
+                <p>funcionamento</p>
+                <p>Aberto todos os dias das 6:00 às 20:00</p>
+                <br>
+                <p>Redes socias</p>
+                <img src="imagens/fotos-catraca-27.webp"> 
+            </div> 
+            
+        </footer>
+    
+    
+</body>
+</html>
